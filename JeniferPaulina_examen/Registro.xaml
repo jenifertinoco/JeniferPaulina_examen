@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JeniferPaulina_examen.VentanaDos">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Registro" FontSize="Medium" TextColor="Plum"/>
+            <Label x:Name="lblNombreUser" FontSize="Medium" TextColor="Pink"/>
+            <Entry x:Name="txtNombreUser" Placeholder="Ingrese el nombre: " />
+            <Entry x:Name="txtpagoi" Placeholder="Ingrese el pago inicial" Keyboard="Numeric"/>
+            <Label x:Name="lblPagoMensual" FontSize="Medium" TextColor="Aqua"/>
+
+            <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked"/>
+            
+            <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked"/>
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
